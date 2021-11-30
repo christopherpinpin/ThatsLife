@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="800.0" layoutX="-1.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@playbg.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="tfCreatePName" layoutX="258.0" layoutY="279.0" prefHeight="40.0" prefWidth="285.0">
+         <font>
+            <Font name="Century Gothic" size="20.0" />
+         </font></TextField>
+      <Label fx:id="lblCreatePQuestion" alignment="CENTER" layoutX="174.0" layoutY="194.0" prefHeight="95.0" prefWidth="458.0" text="What is your name Player 1?">
+         <font>
+            <Font name="Franklin Gothic Demi" size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnCreatePCar" layoutX="416.0" layoutY="343.0" mnemonicParsing="false" onAction="#createPCarClicked" prefHeight="47.0" prefWidth="180.0" style="-fx-background-color: #7bed9a;" text="Career Path">
+         <font>
+            <Font name="Century Gothic Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnCreatePBack" layoutX="14.0" layoutY="538.0" mnemonicParsing="false" onAction="#createPBackClicked" prefHeight="47.0" prefWidth="91.0" style="-fx-background-color: #ed857b;" text="BACK">
+         <font>
+            <Font name="Century Gothic Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnCreatePCol" layoutX="202.0" layoutY="343.0" mnemonicParsing="false" onAction="#createPColClicked" prefHeight="47.0" prefWidth="180.0" style="-fx-background-color: #7bed9a;" text="College Path">
+         <font>
+            <Font name="Century Gothic Bold" size="20.0" />
+         </font>
+      </Button>
+      <Label fx:id="lblCreatePPrompt" layoutX="258.0" layoutY="319.0" prefHeight="18.0" prefWidth="286.0" text="Name should be at least 4 characters long.">
+         <font>
+            <Font name="Century Gothic" size="12.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnCreatePStart" disable="true" layoutX="694.0" layoutY="538.0" mnemonicParsing="false" onAction="#createPStartClicked" prefHeight="47.0" prefWidth="91.0" style="-fx-background-color: #7bed9a;" text="START">
+         <font>
+            <Font name="Century Gothic Bold" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

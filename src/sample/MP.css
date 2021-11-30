@@ -1,0 +1,35 @@
+@font-face {
+	font-family: 'Brush Script MT';
+	src: url('BRUSHSCI.ttf');
+}
+
+.title {
+	-fx-font-family: 'Brush Script MT';
+	-fx-font-size: 81px;
+}
+
+
+.btnPlay {
+	-fx-background-color: #ffc9ff; 
+	-fx-border-color: #a680a1; 
+	-fx-border-width: 2; 
+	-fx-font-family: "Century Gothic"; 
+	-fx-font-size: 16px;
+}
+
+
+.btnInstruct {
+	-fx-background-color: #cbffc9; 
+	-fx-border-color: #759e78; 
+	-fx-border-width: 2; 
+	-fx-font-family: "Century Gothic"; 
+	-fx-font-size: 16px;
+}
+
+.btnExit {
+	-fx-background-color: #fff5c9; 
+	-fx-border-color: #adad7d;
+	-fx-border-width: 2; 
+	-fx-font-family: "Century Gothic"; 
+	-fx-font-size: 16px;
+}

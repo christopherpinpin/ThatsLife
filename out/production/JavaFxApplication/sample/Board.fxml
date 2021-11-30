@@ -1,0 +1,1358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Arc?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Ellipse?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane layoutX="2.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="778.0" fitWidth="1376.0" layoutX="-2.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@boardbg.png" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffa8df" height="59.0" layoutX="958.0" layoutY="9.0" scaleX="0.8" scaleY="0.8" stroke="#ee40d7" strokeType="OUTSIDE" width="77.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9dffa4" height="59.0" layoutX="1021.0" layoutY="9.0" scaleX="0.8" scaleY="0.8" stroke="#2fb916" strokeType="OUTSIDE" width="77.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffd99e" height="59.0" layoutX="1084.0" layoutY="9.0" scaleX="0.8" scaleY="0.8" stroke="#ffaa21" strokeType="OUTSIDE" width="77.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffd99e" height="59.0" layoutX="1147.0" layoutY="9.0" scaleX="0.8" scaleY="0.8" stroke="#ffaa21" strokeType="OUTSIDE" width="77.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffa8df" height="59.0" layoutX="1210.0" layoutY="9.0" scaleX="0.8" scaleY="0.8" stroke="#ee40d7" strokeType="OUTSIDE" width="77.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffd99e" height="59.0" layoutX="1210.0" layoutY="58.0" scaleX="0.8" scaleY="0.8" stroke="#ffaa21" strokeType="OUTSIDE" width="77.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffd99e" height="59.0" layoutX="1210.0" layoutY="106.0" scaleX="0.8" scaleY="0.8" stroke="#ffaa21" strokeType="OUTSIDE" width="77.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9dffa4" height="59.0" layoutX="1210.0" layoutY="155.0" scaleX="0.8" scaleY="0.8" stroke="#2fb916" strokeType="OUTSIDE" width="77.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffd99e" height="59.0" layoutX="958.0" layoutY="58.0" scaleX="0.8" scaleY="0.8" stroke="#ffaa21" strokeType="OUTSIDE" width="77.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffd99e" height="59.0" layoutX="958.0" layoutY="107.0" scaleX="0.8" scaleY="0.8" stroke="#ffaa21" strokeType="OUTSIDE" width="77.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9ee1ff" height="59.0" layoutX="834.0" layoutY="58.0" scaleX="0.8" scaleY="0.8" stroke="#0584eb" strokeType="OUTSIDE" width="77.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffd99e" height="59.0" layoutX="1022.0" layoutY="156.0" scaleX="0.8" scaleY="0.8" stroke="#ffaa21" strokeType="OUTSIDE" width="77.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffd99e" height="59.0" layoutX="1085.0" layoutY="156.0" scaleX="0.8" scaleY="0.8" stroke="#ffaa21" strokeType="OUTSIDE" width="77.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffa8df" height="59.0" layoutX="1148.0" layoutY="156.0" scaleX="0.8" scaleY="0.8" stroke="#ee40d7" strokeType="OUTSIDE" width="77.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffd99e" height="59.0" layoutX="1210.0" layoutY="204.0" scaleX="0.8" scaleY="0.8" stroke="#e39109" strokeType="OUTSIDE" width="77.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffd99e" height="59.0" layoutX="1209.0" layoutY="253.0" scaleX="0.8" scaleY="0.8" stroke="#e39109" strokeType="OUTSIDE" width="77.0" />
+            <Label layoutX="974.0" layoutY="28.0" scaleX="0.8" scaleY="0.8" text="START">
+               <font>
+                  <Font name="Century Gothic Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="1030.0" layoutY="30.0" scaleX="0.8" scaleY="0.8" text="PAY DAY">
+               <font>
+                  <Font name="Century Gothic Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="1234.0" layoutY="23.0" scaleX="0.8" scaleY="0.8" text="GET">
+               <font>
+                  <Font name="Century Gothic Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="1221.0" layoutY="38.0" scaleX="0.8" scaleY="0.8" text="MARRIED">
+               <font>
+                  <Font name="Century Gothic Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="1156.0" layoutY="164.0" scaleX="0.8" scaleY="0.8" text="COLLEGE">
+               <font>
+                  <Font name="Century Gothic Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="1160.0" layoutY="176.0" scaleX="0.8" scaleY="0.8" text="CAREER">
+               <font>
+                  <Font name="Century Gothic Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="1159.0" layoutY="188.0" scaleX="0.8" scaleY="0.8" text="CHOICE">
+               <font>
+                  <Font name="Century Gothic Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="1216.0" layoutY="177.0" scaleX="0.8" scaleY="0.8" text="PAY RAISE">
+               <font>
+                  <Font name="Century Gothic Bold" size="14.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9dffa4" height="59.0" layoutX="1146.0" layoutY="254.0" scaleX="0.8" scaleY="0.8" stroke="#2fb916" strokeType="OUTSIDE" width="77.0" />
+            <Label layoutX="1156.0" layoutY="276.0" scaleX="0.8" scaleY="0.8" text="PAY DAY">
+               <font>
+                  <Font name="Century Gothic Bold" size="14.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffd99e" height="59.0" layoutX="1083.0" layoutY="254.0" scaleX="0.8" scaleY="0.8" stroke="#e39109" strokeType="OUTSIDE" width="77.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9dffa4" height="59.0" layoutX="1020.0" layoutY="254.0" scaleX="0.8" scaleY="0.8" stroke="#2fb916" strokeType="OUTSIDE" width="77.0" />
+            <Label layoutX="1026.0" layoutY="276.0" scaleX="0.8" scaleY="0.8" text="PAY RAISE">
+               <font>
+                  <Font name="Century Gothic Bold" size="14.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffd99e" height="59.0" layoutX="960.0" layoutY="254.0" scaleX="0.8" scaleY="0.8" stroke="#e39109" strokeType="OUTSIDE" width="77.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffd99e" height="59.0" layoutX="897.0" layoutY="254.0" scaleX="0.8" scaleY="0.8" stroke="#e39109" strokeType="OUTSIDE" width="77.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffa8df" height="59.0" layoutX="834.0" layoutY="254.0" scaleX="0.8" scaleY="0.8" stroke="#ee40d7" strokeType="OUTSIDE" width="77.0" />
+            <Label layoutX="850.0" layoutY="270.0" scaleX="0.8" scaleY="0.8" text="WHICH">
+               <font>
+                  <Font name="Century Gothic Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="855.0" layoutY="282.0" scaleX="0.8" scaleY="0.8" text="PATH?">
+               <font>
+                  <Font name="Century Gothic Bold" size="14.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffd99e" height="59.0" layoutX="834.0" layoutY="205.0" scaleX="0.8" scaleY="0.8" stroke="#e39109" strokeType="OUTSIDE" width="77.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9dffa4" height="59.0" layoutX="834.0" layoutY="156.0" scaleX="0.8" scaleY="0.8" stroke="#2fb916" strokeType="OUTSIDE" width="77.0" />
+            <Label layoutX="843.0" layoutY="178.0" scaleX="0.8" scaleY="0.8" text="PAY DAY">
+               <font>
+                  <Font name="Century Gothic Bold" size="14.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9dffa4" height="59.0" layoutX="834.0" layoutY="107.0" scaleX="0.8" scaleY="0.8" stroke="#2fb916" strokeType="OUTSIDE" width="77.0" />
+            <Label layoutX="839.0" layoutY="129.0" scaleX="0.8" scaleY="0.8" text="PAY RAISE">
+               <font>
+                  <Font name="Century Gothic Bold" size="14.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffd99e" height="59.0" layoutX="771.0" layoutY="58.0" scaleX="0.8" scaleY="0.8" stroke="#e39109" strokeType="OUTSIDE" width="77.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffd99e" height="59.0" layoutX="709.0" layoutY="58.0" scaleX="0.8" scaleY="0.8" stroke="#e39109" strokeType="OUTSIDE" width="77.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9ee1ff" height="59.0" layoutX="771.0" layoutY="254.0" scaleX="0.8" scaleY="0.8" stroke="#0584eb" strokeType="OUTSIDE" width="77.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffd99e" height="59.0" layoutX="708.0" layoutY="254.0" scaleX="0.8" scaleY="0.8" stroke="#e39109" strokeType="OUTSIDE" width="77.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffa8df" height="59.0" layoutX="645.0" layoutY="254.0" scaleX="0.8" scaleY="0.8" stroke="#ee40d7" strokeType="OUTSIDE" width="77.0" />
+            <Label layoutX="671.0" layoutY="270.0" scaleX="0.8" scaleY="0.8" text="JOB">
+               <font>
+                  <Font name="Century Gothic Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="660.0" layoutY="282.0" scaleX="0.8" scaleY="0.8" text="SEARCH">
+               <font>
+                  <Font name="Century Gothic Bold" size="14.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9dffa4" height="59.0" layoutX="645.0" layoutY="205.0" scaleX="0.8" scaleY="0.8" stroke="#2fb916" strokeType="OUTSIDE" width="77.0" />
+            <Label layoutX="655.0" layoutY="227.0" scaleX="0.8" scaleY="0.8" text="PAY DAY">
+               <font>
+                  <Font name="Century Gothic Bold" size="14.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffd99e" height="59.0" layoutX="645.0" layoutY="156.0" scaleX="0.8" scaleY="0.8" stroke="#e39109" strokeType="OUTSIDE" width="77.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffd99e" height="59.0" layoutX="645.0" layoutY="107.0" scaleX="0.8" scaleY="0.8" stroke="#e39109" strokeType="OUTSIDE" width="77.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9dffa4" height="59.0" layoutX="646.0" layoutY="59.0" scaleX="0.8" scaleY="0.8" stroke="#2fb916" strokeType="OUTSIDE" width="77.0" />
+            <Label layoutX="651.0" layoutY="81.0" scaleX="0.8" scaleY="0.8" text="PAY RAISE">
+               <font>
+                  <Font name="Century Gothic Bold" size="14.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffd99e" height="59.0" layoutX="583.0" layoutY="59.0" scaleX="0.8" scaleY="0.8" stroke="#e39109" strokeType="OUTSIDE" width="77.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9dffa4" height="59.0" layoutX="520.0" layoutY="59.0" scaleX="0.8" scaleY="0.8" stroke="#2fb916" strokeType="OUTSIDE" width="77.0" />
+            <Label layoutX="529.0" layoutY="81.0" scaleX="0.8" scaleY="0.8" text="PAY DAY">
+               <font>
+                  <Font name="Century Gothic Bold" size="14.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9ee1ff" height="59.0" layoutX="520.0" layoutY="107.0" scaleX="0.8" scaleY="0.8" stroke="#0584eb" strokeType="OUTSIDE" width="77.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffd99e" height="59.0" layoutX="520.0" layoutY="205.0" scaleX="0.8" scaleY="0.8" stroke="#e39109" strokeType="OUTSIDE" width="77.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffd99e" height="59.0" layoutX="520.0" layoutY="156.0" scaleX="0.8" scaleY="0.8" stroke="#e39109" strokeType="OUTSIDE" width="77.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9dffa4" height="59.0" layoutX="520.0" layoutY="254.0" scaleX="0.8" scaleY="0.8" stroke="#2fb916" strokeType="OUTSIDE" width="77.0" />
+            <Label layoutX="529.0" layoutY="276.0" scaleX="0.8" scaleY="0.8" text="PAY DAY">
+               <font>
+                  <Font name="Century Gothic Bold" size="14.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9ee1ff" height="59.0" layoutX="520.0" layoutY="303.0" scaleX="0.8" scaleY="0.8" stroke="#0584eb" strokeType="OUTSIDE" width="77.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffd99e" height="59.0" layoutX="520.0" layoutY="401.0" scaleX="0.8" scaleY="0.8" stroke="#e39109" strokeType="OUTSIDE" width="77.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffd99e" height="59.0" layoutX="520.0" layoutY="352.0" scaleX="0.8" scaleY="0.8" stroke="#e39109" strokeType="OUTSIDE" width="77.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffa8df" height="59.0" layoutX="520.0" layoutY="450.0" scaleX="0.8" scaleY="0.8" stroke="#ee40d7" strokeType="OUTSIDE" width="77.0" />
+            <Label layoutX="535.0" layoutY="464.0" scaleX="0.8" scaleY="0.8" text="WHICH">
+               <font>
+                  <Font name="Century Gothic Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="538.0" layoutY="480.0" scaleX="0.8" scaleY="0.8" text="PATH?">
+               <font>
+                  <Font name="Century Gothic Bold" size="14.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9dffa4" height="59.0" layoutX="583.0" layoutY="451.0" scaleX="0.8" scaleY="0.8" stroke="#2fb916" strokeType="OUTSIDE" width="77.0" />
+            <Label layoutX="593.0" layoutY="472.0" scaleX="0.8" scaleY="0.8" text="PAY DAY">
+               <font>
+                  <Font name="Century Gothic Bold" size="14.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9ee1ff" height="59.0" layoutX="646.0" layoutY="451.0" scaleX="0.8" scaleY="0.8" stroke="#0584eb" strokeType="OUTSIDE" width="77.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffa8df" height="59.0" layoutX="708.0" layoutY="451.0" scaleX="0.8" scaleY="0.8" stroke="#ee40d7" strokeType="OUTSIDE" width="77.0" />
+            <Label layoutX="733.0" layoutY="466.0" scaleX="0.8" scaleY="0.8" text="GET">
+               <font>
+                  <Font name="Century Gothic Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="717.0" layoutY="479.0" scaleX="0.8" scaleY="0.8" text="MARRIED">
+               <font>
+                  <Font name="Century Gothic Bold" size="14.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffd99e" height="59.0" layoutX="771.0" layoutY="451.0" scaleX="0.8" scaleY="0.8" stroke="#e39109" strokeType="OUTSIDE" width="77.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9dffa4" height="59.0" layoutX="833.0" layoutY="451.0" scaleX="0.8" scaleY="0.8" stroke="#2fb916" strokeType="OUTSIDE" width="77.0" />
+            <Label layoutX="843.0" layoutY="474.0" scaleX="0.8" scaleY="0.8" text="PAY DAY">
+               <font>
+                  <Font name="Century Gothic Bold" size="14.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffa8df" height="59.0" layoutX="896.0" layoutY="451.0" scaleX="0.8" scaleY="0.8" stroke="#ee40d7" strokeType="OUTSIDE" width="77.0" />
+            <Label layoutX="915.0" layoutY="466.0" scaleX="0.8" scaleY="0.8" text="BUY A">
+               <font>
+                  <Font name="Century Gothic Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="912.0" layoutY="478.0" scaleX="0.8" scaleY="0.8" text="HOUSE">
+               <font>
+                  <Font name="Century Gothic Bold" size="14.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffd99e" height="59.0" layoutX="959.0" layoutY="451.0" scaleX="0.8" scaleY="0.8" stroke="#e39109" strokeType="OUTSIDE" width="77.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9dffa4" height="59.0" layoutX="520.0" layoutY="499.0" scaleX="0.8" scaleY="0.8" stroke="#2fb916" strokeType="OUTSIDE" width="77.0" />
+            <Label layoutX="529.0" layoutY="522.0" scaleX="0.8" scaleY="0.8" text="PAY DAY">
+               <font>
+                  <Font name="Century Gothic Bold" size="14.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9dffa4" height="59.0" layoutX="520.0" layoutY="548.0" scaleX="0.8" scaleY="0.8" stroke="#2fb916" strokeType="OUTSIDE" width="77.0" />
+            <Label layoutX="524.0" layoutY="570.0" scaleX="0.8" scaleY="0.8" text="PAY RAISE">
+               <font>
+                  <Font name="Century Gothic Bold" size="14.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffd99e" height="59.0" layoutX="521.0" layoutY="597.0" scaleX="0.8" scaleY="0.8" stroke="#e39109" strokeType="OUTSIDE" width="77.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9ee1ff" height="59.0" layoutX="583.0" layoutY="597.0" scaleX="0.8" scaleY="0.8" stroke="#0584eb" strokeType="OUTSIDE" width="77.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9dffa4" height="59.0" layoutX="645.0" layoutY="597.0" scaleX="0.8" scaleY="0.8" stroke="#2fb916" strokeType="OUTSIDE" width="77.0" />
+            <Label layoutX="650.0" layoutY="619.0" scaleX="0.8" scaleY="0.8" text="PAY RAISE">
+               <font>
+                  <Font name="Century Gothic Bold" size="14.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffd99e" height="59.0" layoutX="708.0" layoutY="597.0" scaleX="0.8" scaleY="0.8" stroke="#e39109" strokeType="OUTSIDE" width="77.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9dffa4" height="59.0" layoutX="771.0" layoutY="597.0" scaleX="0.8" scaleY="0.8" stroke="#2fb916" strokeType="OUTSIDE" width="77.0" />
+            <Label layoutX="780.0" layoutY="620.0" scaleX="0.8" scaleY="0.8" text="PAY DAY">
+               <font>
+                  <Font name="Century Gothic Bold" size="14.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffd99e" height="59.0" layoutX="834.0" layoutY="598.0" scaleX="0.8" scaleY="0.8" stroke="#e39109" strokeType="OUTSIDE" width="77.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffd99e" height="59.0" layoutX="897.0" layoutY="598.0" scaleX="0.8" scaleY="0.8" stroke="#e39109" strokeType="OUTSIDE" width="77.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9dffa4" height="59.0" layoutX="960.0" layoutY="549.0" scaleX="0.8" scaleY="0.8" stroke="#2fb916" strokeType="OUTSIDE" width="77.0" />
+            <Label layoutX="969.0" layoutY="570.0" scaleX="0.8" scaleY="0.8" text="PAY DAY">
+               <font>
+                  <Font name="Century Gothic Bold" size="14.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9dffa4" height="59.0" layoutX="960.0" layoutY="598.0" scaleX="0.8" scaleY="0.8" stroke="#2fb916" strokeType="OUTSIDE" width="77.0" />
+            <Label layoutX="969.0" layoutY="619.0" scaleX="0.8" scaleY="0.8" text="PAY DAY">
+               <font>
+                  <Font name="Century Gothic Bold" size="14.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffa8df" height="59.0" layoutX="960.0" layoutY="500.0" scaleX="0.8" scaleY="0.8" stroke="#ee40d7" strokeType="OUTSIDE" width="77.0" />
+            <Label layoutX="965.0" layoutY="509.0" scaleX="0.8" scaleY="0.8" text="HAVE BABY">
+               <font>
+                  <Font name="Century Gothic Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="989.0" layoutY="522.0" scaleX="0.8" scaleY="0.8" text="OR">
+               <font>
+                  <Font name="Century Gothic Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="964.0" layoutY="534.0" scaleX="0.8" scaleY="0.8" text="HAVE TWINS">
+               <font>
+                  <Font name="Century Gothic Bold" size="12.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffd99e" height="59.0" layoutX="1023.0" layoutY="598.0" scaleX="0.8" scaleY="0.8" stroke="#e39109" strokeType="OUTSIDE" width="77.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffd99e" height="59.0" layoutX="1086.0" layoutY="598.0" scaleX="0.8" scaleY="0.8" stroke="#e39109" strokeType="OUTSIDE" width="77.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9dffa4" height="59.0" layoutX="1086.0" layoutY="549.0" scaleX="0.8" scaleY="0.8" stroke="#2fb916" strokeType="OUTSIDE" width="77.0" />
+            <Label layoutX="1095.0" layoutY="571.0" scaleX="0.8" scaleY="0.8" text="PAY DAY">
+               <font>
+                  <Font name="Century Gothic Bold" size="14.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffd99e" height="59.0" layoutX="1149.0" layoutY="549.0" scaleX="0.8" scaleY="0.8" stroke="#e39109" strokeType="OUTSIDE" width="77.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffa8df" height="59.0" layoutX="1149.0" layoutY="501.0" scaleX="0.8" scaleY="0.8" stroke="#ee40d7" strokeType="OUTSIDE" width="77.0" />
+            <Label layoutX="1155.0" layoutY="523.0" scaleX="0.8" scaleY="0.8" text="RETIREMENT">
+               <font>
+                  <Font name="Century Gothic Bold" size="12.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffd99e" height="59.0" layoutX="959.0" layoutY="156.0" scaleX="0.8" scaleY="0.8" stroke="#ffaa21" strokeType="OUTSIDE" width="77.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="101.0" layoutX="256.0" layoutY="157.0" stroke="#ababab" strokeType="INSIDE" width="101.0" />
+            <Circle id="cFirstD3" fx:id="cFirstD3" layoutX="307.0" layoutY="210.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle id="cFirstD1" fx:id="cFirstD1" layoutX="279.0" layoutY="182.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle id="cFirstD4" fx:id="cFirstD4" layoutX="335.0" layoutY="182.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle id="cFirstD5" fx:id="cFirstD5" layoutX="279.0" layoutY="238.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle id="cFirstD2" fx:id="cFirstD2" layoutX="335.0" layoutY="238.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
+            <Button id="btnRollDice" fx:id="btnRollDice" layoutX="46.0" layoutY="168.0" mnemonicParsing="false" onAction="#rollDice" prefHeight="76.0" prefWidth="180.0" style="-fx-background-color: #ff8e8e;" text="ROLL DICE!" textFill="MAROON">
+               <font>
+                  <Font name="Century Gothic Bold" size="24.0" />
+               </font>
+            </Button>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="101.0" layoutX="379.0" layoutY="157.0" stroke="#ababab" strokeType="INSIDE" width="101.0" />
+            <Circle id="cSecD3" fx:id="cSecD3" layoutX="430.0" layoutY="210.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle id="cSecD1" fx:id="cSecD1" layoutX="402.0" layoutY="182.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle id="cSecD4" fx:id="cSecD4" layoutX="458.0" layoutY="182.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle id="cSecD5" fx:id="cSecD5" layoutX="402.0" layoutY="238.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle id="cSecD2" fx:id="cSecD2" layoutX="458.0" layoutY="238.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
+            <Rectangle fx:id="recP1GenInfo" arcHeight="5.0" arcWidth="5.0" fill="#ff8e8e" height="125.0" layoutX="49.0" layoutY="272.0" stroke="#ae0b0b" strokeType="INSIDE" width="432.0" />
+            <Rectangle fx:id="recP2GenInfo" arcHeight="5.0" arcWidth="5.0" fill="#fff873" height="125.0" layoutX="49.0" layoutY="403.0" stroke="#818305" strokeType="INSIDE" width="432.0" />
+            <Rectangle fx:id="recP3GenInfo" arcHeight="5.0" arcWidth="5.0" fill="#7dffa0" height="125.0" layoutX="49.0" layoutY="534.0" stroke="#268314" strokeType="INSIDE" width="432.0" />
+            <Rectangle fx:id="recP1Name" arcHeight="5.0" arcWidth="5.0" fill="#a84b4b" height="22.0" layoutX="49.0" layoutY="272.0" stroke="#800000" strokeType="INSIDE" width="432.0" />
+            <Rectangle fx:id="recP2Name" arcHeight="5.0" arcWidth="5.0" fill="#9ea84a" height="22.0" layoutX="49.0" layoutY="403.0" stroke="#788000" strokeType="INSIDE" width="432.0" />
+            <Rectangle fx:id="recP3Name" arcHeight="5.0" arcWidth="5.0" fill="#4bb252" height="22.0" layoutX="49.0" layoutY="534.0" stroke="#008002" strokeType="INSIDE" width="432.0" />
+            <Label id="lblP1Name" fx:id="lblP1Name" alignment="CENTER" contentDisplay="CENTER" layoutX="48.0" layoutY="272.0" prefHeight="23.0" prefWidth="432.0" text="Player 1 Name" textAlignment="CENTER" textFill="#ff9c9c">
+               <font>
+                  <Font name="Century Gothic Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label id="lblP2Name" fx:id="lblP2Name" alignment="CENTER" contentDisplay="CENTER" layoutX="49.0" layoutY="403.0" prefHeight="23.0" prefWidth="432.0" text="Player 2 Name" textAlignment="CENTER" textFill="#fff695">
+               <font>
+                  <Font name="Century Gothic Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblP3Name" alignment="CENTER" contentDisplay="CENTER" layoutX="49.0" layoutY="534.0" prefHeight="23.0" prefWidth="432.0" text="Player 3 Name" textAlignment="CENTER" textFill="#a1ffa5">
+               <font>
+                  <Font name="Century Gothic Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label id="lblP2Children" layoutX="119.0" layoutY="475.0" textFill="#656130">
+               <font>
+                  <Font name="Century Gothic Bold" size="12.0" />
+               </font>
+            </Label>
+            <Rectangle fx:id="recP1HouseInfo" arcHeight="5.0" arcWidth="5.0" fill="#b24444" height="94.0" layoutX="172.0" layoutY="297.0" stroke="#ae4d4d" strokeType="INSIDE" width="87.0" />
+            <Rectangle fx:id="recP1SalaryInfo" arcHeight="5.0" arcWidth="5.0" fill="#b24444" height="94.0" layoutX="269.0" layoutY="297.0" stroke="#ae4d4d" strokeType="INSIDE" width="87.0" />
+            <Rectangle fx:id="recP1CareerInfo" arcHeight="5.0" arcWidth="5.0" fill="#b24444" height="94.0" layoutX="366.0" layoutY="297.0" stroke="#ae4d4d" strokeType="INSIDE" width="87.0" />
+            <Label fx:id="lblP1HouseTitle" layoutX="178.0" layoutY="300.0" text="HOUSE CARD" textFill="#ff9b9b">
+               <font>
+                  <Font name="Century Gothic Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblP1SalaryTitle" layoutX="272.0" layoutY="299.0" text="SALARY CARD" textFill="#ff9b9b">
+               <font>
+                  <Font name="Century Gothic Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblP1CareerTitle" layoutX="368.0" layoutY="299.0" text="CAREER CARD" textFill="#ff9b9b">
+               <font>
+                  <Font name="Century Gothic Bold" size="12.0" />
+               </font>
+            </Label>
+            <Rectangle fx:id="recP2HouseInfo" arcHeight="5.0" arcWidth="5.0" fill="#bcb645" height="94.0" layoutX="174.0" layoutY="428.0" stroke="#b5b94d" strokeType="INSIDE" width="87.0" />
+            <Rectangle fx:id="recP2SalaryInfo" arcHeight="5.0" arcWidth="5.0" fill="#bcb645" height="94.0" layoutX="271.0" layoutY="428.0" stroke="#b5b94d" strokeType="INSIDE" width="87.0" />
+            <Rectangle fx:id="recP2CareerInfo" arcHeight="5.0" arcWidth="5.0" fill="#bcb645" height="94.0" layoutX="368.0" layoutY="428.0" stroke="#b5b94d" strokeType="INSIDE" width="87.0" />
+            <Label fx:id="lblP2HouseTitle" layoutX="180.0" layoutY="431.0" text="HOUSE CARD" textFill="#fffba6">
+               <font>
+                  <Font name="Century Gothic Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblP2SalaryTitle" layoutX="274.0" layoutY="430.0" text="SALARY CARD" textFill="#fffba6">
+               <font>
+                  <Font name="Century Gothic Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblP2CareerTitle" layoutX="370.0" layoutY="430.0" text="CAREER CARD" textFill="#fffba6">
+               <font>
+                  <Font name="Century Gothic Bold" size="12.0" />
+               </font>
+            </Label>
+            <Rectangle fx:id="recP3HouseInfo" arcHeight="5.0" arcWidth="5.0" fill="#4ab966" height="94.0" layoutX="172.0" layoutY="559.0" stroke="#46bc4d" strokeType="INSIDE" width="87.0" />
+            <Rectangle fx:id="recP3SalaryInfo" arcHeight="5.0" arcWidth="5.0" fill="#4ab966" height="94.0" layoutX="269.0" layoutY="559.0" stroke="#46bc4d" strokeType="INSIDE" width="87.0" />
+            <Rectangle fx:id="recP3CareerInfo" arcHeight="5.0" arcWidth="5.0" fill="#4ab966" height="94.0" layoutX="366.0" layoutY="559.0" stroke="#46bc4d" strokeType="INSIDE" width="87.0" />
+            <Label fx:id="lblP3HouseTitle" layoutX="178.0" layoutY="562.0" text="HOUSE CARD" textFill="#afffc5">
+               <font>
+                  <Font name="Century Gothic Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblP3SalaryTitle" layoutX="272.0" layoutY="561.0" text="SALARY CARD" textFill="#afffc5">
+               <font>
+                  <Font name="Century Gothic Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblP3CareerTitle" layoutX="368.0" layoutY="561.0" text="CAREER CARD" textFill="#afffc5">
+               <font>
+                  <Font name="Century Gothic Bold" size="12.0" />
+               </font>
+            </Label>
+            <Circle id="cP1" fx:id="cP1" fill="#ff5e5e" layoutX="978.0" layoutY="25.0" radius="8.0" stroke="#ae0000" strokeType="INSIDE" />
+            <Circle id="cP2" fx:id="cP2" fill="#fff07d" layoutX="998.0" layoutY="25.0" radius="8.0" stroke="#c4b000" strokeType="INSIDE" />
+            <Circle id="cP3" fx:id="cP3" fill="#98ff9f" layoutX="1018.0" layoutY="25.0" radius="8.0" stroke="#1cb900" strokeType="INSIDE" />
+            <Label id="lblTurn" fx:id="lblPlyrTurn" alignment="CENTER" layoutX="27.0" layoutY="131.0" prefHeight="36.0" prefWidth="218.0" text="PlayerX's TURN!" textAlignment="CENTER" textFill="#09354f">
+               <font>
+                  <Font name="Century Gothic Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label id="lblP2Stats" fx:id="lblP2GenInfo" alignment="TOP_LEFT" layoutX="55.0" layoutY="430.0" prefHeight="94.0" prefWidth="112.0" text="CASH: 200000&#10;LOAN: 0&#10;DEGREE: false&#10;CHILDREN: 0&#10;SPOUSE: false&#10;RETIRED: false" textFill="#656130">
+               <font>
+                  <Font name="Century Gothic Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label id="lblP3Stats" fx:id="lblP3GenInfo" alignment="TOP_LEFT" layoutX="55.0" layoutY="559.0" prefHeight="94.0" prefWidth="112.0" text="CASH: 200000&#10;LOAN: 0&#10;DEGREE: false&#10;CHILDREN: 0&#10;SPOUSE: false&#10;RETIRED: false" textFill="#2d7528">
+               <font>
+                  <Font name="Century Gothic Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label id="lblP1Stats" fx:id="lblP1GenInfo" alignment="TOP_LEFT" layoutX="55.0" layoutY="297.0" prefHeight="94.0" prefWidth="112.0" text="CASH: 200000&#10;LOAN: 0&#10;DEGREE: false&#10;CHILDREN: 0&#10;SPOUSE: false&#10;RETIRED: false" textFill="#6b3d3d">
+               <font>
+                  <Font name="Century Gothic Bold" size="12.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnBoardStartGame" layoutX="46.0" layoutY="168.0" mnemonicParsing="false" onAction="#boardStartGameClicked" prefHeight="76.0" prefWidth="180.0" style="-fx-background-color: #9ee1ff;" text="START GAME" textFill="#244e6e">
+               <font>
+                  <Font name="Century Gothic Bold" size="24.0" />
+               </font>
+            </Button>
+            <Label id="lblP3Stats" fx:id="lblP3CareerInfo" alignment="CENTER" layoutX="364.0" layoutY="570.0" lineSpacing="6.0" prefHeight="83.0" prefWidth="94.0" text="CAREER&#10;N/A&#10;MAX PAY RAISE&#10;N/A&#10;" textAlignment="CENTER" textFill="#afffc5">
+               <font>
+                  <Font name="Century Gothic Bold" size="8.0" />
+               </font>
+            </Label>
+            <Label id="lblP3Stats" fx:id="lblP3SalaryInfo" alignment="CENTER" layoutX="267.0" layoutY="570.0" lineSpacing="1.5" prefHeight="83.0" prefWidth="94.0" text="SALARY&#10;N/A&#10;TAX DUE&#10;N/A&#10;PAY RAISE VALUE&#10;N/A" textAlignment="CENTER" textFill="#afffc5">
+               <font>
+                  <Font name="Century Gothic Bold" size="9.0" />
+               </font>
+            </Label>
+            <Label id="lblP3Stats" fx:id="lblP3HouseInfo" alignment="CENTER" layoutX="171.0" layoutY="570.0" lineSpacing="6.0" prefHeight="83.0" prefWidth="87.0" text="HOUSE&#10;N/A&#10;PRICE&#10;N/A" textAlignment="CENTER" textFill="#afffc5" wrapText="true">
+               <font>
+                  <Font name="Century Gothic Bold" size="9.0" />
+               </font>
+            </Label>
+            <Label id="lblP3Stats" fx:id="lblP2HouseInfo" alignment="CENTER" layoutX="171.0" layoutY="439.0" lineSpacing="6.0" prefHeight="83.0" prefWidth="94.0" text="HOUSE&#10;N/A&#10;PRICE&#10;N/A" textAlignment="CENTER" textFill="#fffba6" wrapText="true">
+               <font>
+                  <Font name="Century Gothic Bold" size="9.0" />
+               </font>
+            </Label>
+            <Label id="lblP3Stats" fx:id="lblP2SalaryInfo" alignment="CENTER" layoutX="267.0" layoutY="439.0" lineSpacing="1.5" prefHeight="83.0" prefWidth="94.0" text="SALARY&#10;N/A&#10;TAX DUE&#10;N/A&#10;PAY RAISE VALUE&#10;N/A" textAlignment="CENTER" textFill="#fffba6">
+               <font>
+                  <Font name="Century Gothic Bold" size="9.0" />
+               </font>
+            </Label>
+            <Label id="lblP3Stats" fx:id="lblP2CareerInfo" alignment="CENTER" layoutX="366.0" layoutY="439.0" lineSpacing="6.0" prefHeight="83.0" prefWidth="94.0" text="CAREER&#10;N/A&#10;MAX PAY RAISE&#10;N/A&#10;" textAlignment="CENTER" textFill="#fffba6">
+               <font>
+                  <Font name="Century Gothic Bold" size="8.0" />
+               </font>
+            </Label>
+            <Label id="lblP3Stats" fx:id="lblP1HouseInfo" alignment="CENTER" layoutX="171.0" layoutY="306.0" lineSpacing="6.0" prefHeight="83.0" prefWidth="94.0" text="HOUSE&#10;N/A&#10;PRICE&#10;N/A" textAlignment="CENTER" textFill="#ff9b9b" wrapText="true">
+               <font>
+                  <Font name="Century Gothic Bold" size="9.0" />
+               </font>
+            </Label>
+            <Label id="lblP3Stats" fx:id="lblP1SalaryInfo" alignment="CENTER" layoutX="267.0" layoutY="306.0" lineSpacing="1.5" prefHeight="83.0" prefWidth="94.0" text="SALARY&#10;N/A&#10;TAX DUE&#10;N/A&#10;PAY RAISE VALUE&#10;N/A" textAlignment="CENTER" textFill="#ff9b9b">
+               <font>
+                  <Font name="Century Gothic Bold" size="9.0" />
+               </font>
+            </Label>
+            <Label id="lblP3Stats" fx:id="lblP1CareerInfo" alignment="CENTER" layoutX="362.0" layoutY="306.0" lineSpacing="6.0" prefHeight="83.0" prefWidth="94.0" text="CAREER&#10;N/A&#10;MAX PAY RAISE&#10;N/A&#10;" textAlignment="CENTER" textFill="#ff9b9b">
+               <font>
+                  <Font name="Century Gothic Bold" size="8.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnEndTurn" disable="true" layoutX="46.0" layoutY="168.0" mnemonicParsing="false" onAction="#endTurnClicked" prefHeight="76.0" prefWidth="180.0" style="-fx-background-color: #ff8e8e;" text="END TURN" textFill="MAROON" visible="false">
+               <font>
+                  <Font name="Century Gothic Bold" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnGetLoan" disable="true" layoutX="358.0" layoutY="699.0" mnemonicParsing="false" onAction="#btnGetLoanClicked" prefHeight="46.0" prefWidth="110.0" style="-fx-background-color: #BDFFF9;" text="LOAN">
+               <font>
+                  <Font name="Century Gothic Bold" size="24.0" />
+               </font>
+            </Button>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8fd0ff" height="49.0" layoutX="98.0" layoutY="699.0" stroke="BLACK" strokeType="INSIDE" width="202.0" />
+            <Label fx:id="lblGetLoan" alignment="CENTER" contentDisplay="CENTER" layoutX="99.0" layoutY="699.0" prefHeight="50.0" prefWidth="202.0" text="0" textAlignment="CENTER">
+               <font>
+                  <Font name="Century Gothic Bold" size="24.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnGetLoanInc" disable="true" layoutX="300.0" layoutY="700.0" mnemonicParsing="false" onAction="#btnGetLoanIncClicked" prefHeight="46.0" prefWidth="49.0" style="-fx-background-color: #BDFFF9;" text="&gt;">
+               <font>
+                  <Font name="Century Gothic Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnGetLoanDec" disable="true" layoutX="48.5" layoutY="700.0" mnemonicParsing="false" onAction="#btnGetLoanDecClicked" prefHeight="46.0" prefWidth="49.0" style="-fx-background-color: #BDFFF9;" text="&lt;">
+               <font>
+                  <Font name="Century Gothic Bold" size="18.0" />
+               </font>
+            </Button>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8fd0ff" height="49.0" layoutX="886.0" layoutY="699.0" stroke="BLACK" strokeType="INSIDE" width="202.0" />
+            <Label fx:id="lblPayLoan" alignment="CENTER" contentDisplay="CENTER" layoutX="885.0" layoutY="699.0" prefHeight="50.0" prefWidth="202.0" text="0" textAlignment="CENTER">
+               <font>
+                  <Font name="Century Gothic Bold" size="24.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnPayLoanDec" disable="true" layoutX="836.0" layoutY="700.0" mnemonicParsing="false" onAction="#btnPayLoanDecClicked" prefHeight="46.0" prefWidth="49.0" style="-fx-background-color: #BDFFF9;" text="&lt;">
+               <font>
+                  <Font name="Century Gothic Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnPayLoanInc" disable="true" layoutX="1088.0" layoutY="699.0" mnemonicParsing="false" onAction="#btnPayLoanIncClicked" prefHeight="46.0" prefWidth="49.0" style="-fx-background-color: #BDFFF9;" text="&gt;">
+               <font>
+                  <Font name="Century Gothic Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnPayLoan" disable="true" layoutX="1145.0" layoutY="699.0" mnemonicParsing="false" onAction="#btnPayLoanClicked" prefHeight="47.0" prefWidth="164.0" style="-fx-background-color: #BDFFF9;" text="PAY LOAN">
+               <font>
+                  <Font name="Century Gothic Bold" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnEndGame" disable="true" layoutX="46.0" layoutY="168.0" mnemonicParsing="false" onAction="#btnEndGameClicked" prefHeight="76.0" prefWidth="180.0" style="-fx-background-color: #244e6e;" text="END GAME" textFill="#9ee1ff" visible="false">
+               <font>
+                  <Font name="Century Gothic Bold" size="24.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="popUpAnchor" disable="true" layoutX="299.0" layoutY="101.0" visible="false">
+         <children>
+            <AnchorPane fx:id="retireAnchor" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" visible="false">
+               <children>
+                  <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@magentabg.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="lblRetireTitle" alignment="CENTER" prefHeight="135.0" prefWidth="800.0" text="CONGRATULATIONS Paolo! &#10;YOU ARE RETIRED!" textAlignment="CENTER" textFill="#de71b8" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="37.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="btnRetireOK" layoutX="611.0" layoutY="529.0" mnemonicParsing="false" onAction="#btnCardOKClicked" prefHeight="57.0" prefWidth="180.0" style="-fx-background-color: #84ff82;" text="OK!" textFill="#24822a">
+                     <font>
+                        <Font name="Century Gothic Bold" size="29.0" />
+                     </font>
+                  </Button>
+                  <Label fx:id="lblRetirePlyrChildren" layoutX="32.0" layoutY="234.0" prefHeight="89.0" prefWidth="253.0" text="CHILDREN:  3" textAlignment="CENTER" textFill="#de71b8" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="25.0" />
+                     </font>
+                  </Label>
+                  <Rectangle fx:id="recRetireHouseBG" arcHeight="5.0" arcWidth="5.0" fill="#ffadad" height="186.0" layoutX="385.0" layoutY="250.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="143.0" />
+                  <Label fx:id="lblRetireHouseTitle" alignment="CENTER" layoutX="384.0" layoutY="250.0" prefHeight="31.0" prefWidth="143.0" text="HOUSE CARD" textAlignment="CENTER" textFill="#ab3f3f" visible="false">
+                     <font>
+                        <Font name="Century Gothic Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblRetireHouseInfo" alignment="CENTER" layoutX="386.0" layoutY="281.0" prefHeight="153.0" prefWidth="143.0" text="Mansion in Manila&#10;&#10;&#10;PRICE: 250000" textAlignment="CENTER" textFill="#ab3f3f" visible="false" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblRetireEvent" alignment="CENTER" layoutY="127.0" prefHeight="107.0" prefWidth="767.0" text="YOU ARE 1ST TO RETIRE! COLLECT 100000 FROM THE BANK " textAlignment="CENTER" textFill="#ecff00" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="37.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblRetirePlyrChildrenPrice" layoutX="211.0" layoutY="234.0" prefHeight="89.0" prefWidth="253.0" text="+30000" textAlignment="CENTER" textFill="#39ff00" visible="false" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="25.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblRetireHousePrice" layoutX="553.0" layoutY="234.0" prefHeight="89.0" prefWidth="191.0" text="+250000" textAlignment="CENTER" textFill="#39ff00" visible="false" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblRetirePlyrLoan" layoutX="24.0" layoutY="337.0" prefHeight="89.0" prefWidth="253.0" text="LOAN: 10000" textAlignment="CENTER" textFill="#de71b8" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="25.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblRetirePlyrLoanPrice" layoutX="211.0" layoutY="337.0" prefHeight="89.0" prefWidth="253.0" text="-10000" textAlignment="CENTER" textFill="RED" visible="false" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="25.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblRetireFinalCash" layoutX="45.0" layoutY="484.0" prefHeight="89.0" prefWidth="520.0" text="FINAL CASH: 100000" textAlignment="CENTER" textFill="#40ff00" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="49.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblRetireCurCash" layoutX="45.0" layoutY="441.0" prefHeight="68.0" prefWidth="471.0" text="CURRENT CASH: 100200 + 20000" textAlignment="CENTER" textFill="#de71b8" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="25.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="haveBabiesAnchor" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" visible="false">
+               <children>
+                  <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@magentabg.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="lblHaveBabiesEvent" alignment="CENTER" prefHeight="483.0" prefWidth="800.0" text="CONGRATULATIONS ON YOUR NEW BABY! &#10;&#10;COLLECT P5000 FROM EACH PLAYER FOR EACH BABY" textAlignment="CENTER" textFill="#de71b8" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="37.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="btnHaveBabiesOK" layoutX="611.0" layoutY="529.0" mnemonicParsing="false" onAction="#btnCardOKClicked" prefHeight="57.0" prefWidth="180.0" style="-fx-background-color: #84ff82;" text="OK!" textFill="#24822a">
+                     <font>
+                        <Font name="Century Gothic Bold" size="29.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="buyAHouseAnchor" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" visible="false">
+               <children>
+                  <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@magentabg.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" layoutX="101.0" prefHeight="73.0" prefWidth="593.0" text="BUY A HOUSE" textAlignment="CENTER" textFill="#e172cd">
+                     <font>
+                        <Font name="Century Gothic Bold" size="45.0" />
+                     </font>
+                  </Label>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffadad" height="186.0" layoutX="323.0" layoutY="98.0" stroke="BLACK" strokeType="INSIDE" width="143.0" />
+                  <Label alignment="CENTER" layoutX="322.0" layoutY="98.0" prefHeight="31.0" prefWidth="143.0" text="HOUSE CARD" textAlignment="CENTER" textFill="#ab3f3f">
+                     <font>
+                        <Font name="Century Gothic Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffadad" height="186.0" layoutX="479.0" layoutY="98.0" stroke="BLACK" strokeType="INSIDE" width="143.0" />
+                  <Label alignment="CENTER" layoutX="478.0" layoutY="98.0" prefHeight="31.0" prefWidth="143.0" text="HOUSE CARD" textAlignment="CENTER" textFill="#ab3f3f">
+                     <font>
+                        <Font name="Century Gothic Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffadad" height="186.0" layoutX="635.0" layoutY="98.0" stroke="BLACK" strokeType="INSIDE" width="143.0" />
+                  <Label alignment="CENTER" layoutX="634.0" layoutY="98.0" prefHeight="31.0" prefWidth="143.0" text="HOUSE CARD" textAlignment="CENTER" textFill="#ab3f3f">
+                     <font>
+                        <Font name="Century Gothic Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffadad" height="186.0" layoutX="168.0" layoutY="98.0" stroke="BLACK" strokeType="INSIDE" width="143.0" />
+                  <Label alignment="CENTER" layoutX="167.0" layoutY="98.0" prefHeight="31.0" prefWidth="143.0" text="HOUSE CARD" textAlignment="CENTER" textFill="#ab3f3f">
+                     <font>
+                        <Font name="Century Gothic Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffadad" height="186.0" layoutX="15.0" layoutY="98.0" stroke="BLACK" strokeType="INSIDE" width="143.0" />
+                  <Label alignment="CENTER" layoutX="14.0" layoutY="98.0" prefHeight="31.0" prefWidth="143.0" text="HOUSE CARD" textAlignment="CENTER" textFill="#ab3f3f">
+                     <font>
+                        <Font name="Century Gothic Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffadad" height="186.0" layoutX="325.0" layoutY="333.0" stroke="BLACK" strokeType="INSIDE" width="143.0" />
+                  <Label alignment="CENTER" layoutX="324.0" layoutY="333.0" prefHeight="31.0" prefWidth="143.0" text="HOUSE CARD" textAlignment="CENTER" textFill="#ab3f3f">
+                     <font>
+                        <Font name="Century Gothic Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffadad" height="186.0" layoutX="481.0" layoutY="333.0" stroke="BLACK" strokeType="INSIDE" width="143.0" />
+                  <Label alignment="CENTER" layoutX="480.0" layoutY="333.0" prefHeight="31.0" prefWidth="143.0" text="HOUSE CARD" textAlignment="CENTER" textFill="#ab3f3f">
+                     <font>
+                        <Font name="Century Gothic Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffadad" height="186.0" layoutX="637.0" layoutY="333.0" stroke="BLACK" strokeType="INSIDE" width="143.0" />
+                  <Label alignment="CENTER" layoutX="636.0" layoutY="333.0" prefHeight="31.0" prefWidth="143.0" text="HOUSE CARD" textAlignment="CENTER" textFill="#ab3f3f">
+                     <font>
+                        <Font name="Century Gothic Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffadad" height="186.0" layoutX="170.0" layoutY="333.0" stroke="BLACK" strokeType="INSIDE" width="143.0" />
+                  <Label alignment="CENTER" layoutX="169.0" layoutY="333.0" prefHeight="31.0" prefWidth="143.0" text="HOUSE CARD" textAlignment="CENTER" textFill="#ab3f3f">
+                     <font>
+                        <Font name="Century Gothic Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffadad" height="186.0" layoutX="17.0" layoutY="333.0" stroke="BLACK" strokeType="INSIDE" width="143.0" />
+                  <Label alignment="CENTER" layoutX="16.0" layoutY="333.0" prefHeight="31.0" prefWidth="143.0" text="HOUSE CARD" textAlignment="CENTER" textFill="#ab3f3f">
+                     <font>
+                        <Font name="Century Gothic Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="16.0" layoutY="129.0" prefHeight="73.0" prefWidth="143.0" text="Mansion in Manila" textAlignment="CENTER" textFill="#ab3f3f" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="17.0" layoutY="211.0" prefHeight="73.0" prefWidth="143.0" text="PRICE: 250000" textAlignment="CENTER" textFill="#ab3f3f" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="168.0" layoutY="128.0" prefHeight="73.0" prefWidth="143.0" text="Bungalow in Mandaluyong" textAlignment="CENTER" textFill="#ab3f3f" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="169.0" layoutY="210.0" prefHeight="73.0" prefWidth="143.0" text="PRICE: 75000" textAlignment="CENTER" textFill="#ab3f3f" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="324.0" layoutY="128.0" prefHeight="73.0" prefWidth="143.0" text="RV Van" textAlignment="CENTER" textFill="#ab3f3f" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="325.0" layoutY="210.0" prefHeight="73.0" prefWidth="143.0" text="PRICE: 50000" textAlignment="CENTER" textFill="#ab3f3f" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="481.0" layoutY="128.0" prefHeight="73.0" prefWidth="143.0" text="Townhouse in Laguna" textAlignment="CENTER" textFill="#ab3f3f" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="482.0" layoutY="210.0" prefHeight="73.0" prefWidth="143.0" text="PRICE: 100000" textAlignment="CENTER" textFill="#ab3f3f" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="636.0" layoutY="128.0" prefHeight="73.0" prefWidth="143.0" text="Apartment in Taguig" textAlignment="CENTER" textFill="#ab3f3f" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="637.0" layoutY="210.0" prefHeight="73.0" prefWidth="143.0" text="PRICE: 150000" textAlignment="CENTER" textFill="#ab3f3f" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="637.0" layoutY="363.0" prefHeight="73.0" prefWidth="143.0" text="Bungalow in Palawan" textAlignment="CENTER" textFill="#ab3f3f" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="638.0" layoutY="445.0" prefHeight="73.0" prefWidth="143.0" text="PRICE: 100000" textAlignment="CENTER" textFill="#ab3f3f" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="483.0" layoutY="362.0" prefHeight="73.0" prefWidth="143.0" text="Beach House in Boracay" textAlignment="CENTER" textFill="#ab3f3f" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="482.0" layoutY="444.0" prefHeight="73.0" prefWidth="143.0" text="PRICE: 500000" textAlignment="CENTER" textFill="#ab3f3f" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="325.0" layoutY="363.0" prefHeight="73.0" prefWidth="143.0" text="Mansion in Tagaytay" textAlignment="CENTER" textFill="#ab3f3f" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="326.0" layoutY="445.0" prefHeight="73.0" prefWidth="143.0" text="PRICE: 300000" textAlignment="CENTER" textFill="#ab3f3f" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="171.0" layoutY="363.0" prefHeight="73.0" prefWidth="143.0" text="Condominium in Makati" textAlignment="CENTER" textFill="#ab3f3f" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="172.0" layoutY="445.0" prefHeight="73.0" prefWidth="143.0" text="PRICE: 200000" textAlignment="CENTER" textFill="#ab3f3f" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="18.0" layoutY="363.0" prefHeight="73.0" prefWidth="143.0" text="Condominium in Pasay" textAlignment="CENTER" textFill="#ab3f3f" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="19.0" layoutY="445.0" prefHeight="73.0" prefWidth="143.0" text="PRICE: 200000" textAlignment="CENTER" textFill="#ab3f3f" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="14.0" layoutY="66.0" prefHeight="31.0" prefWidth="143.0" text="1" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Century Gothic Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="169.0" layoutY="66.0" prefHeight="31.0" prefWidth="143.0" text="2" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Century Gothic Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="322.0" layoutY="66.0" prefHeight="31.0" prefWidth="143.0" text="3" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Century Gothic Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="636.0" layoutY="66.0" prefHeight="31.0" prefWidth="143.0" text="5" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Century Gothic Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="480.0" layoutY="66.0" prefHeight="31.0" prefWidth="143.0" text="4" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Century Gothic Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="16.0" layoutY="301.0" prefHeight="31.0" prefWidth="143.0" text="6" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Century Gothic Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="171.0" layoutY="301.0" prefHeight="31.0" prefWidth="143.0" text="7" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Century Gothic Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="323.0" layoutY="301.0" prefHeight="31.0" prefWidth="143.0" text="8" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Century Gothic Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="483.0" layoutY="300.0" prefHeight="31.0" prefWidth="143.0" text="9" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Century Gothic Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="637.0" layoutY="301.0" prefHeight="31.0" prefWidth="143.0" text="10" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Century Gothic Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="27.0" layoutY="521.0" prefHeight="73.0" prefWidth="280.0" text="CHOOSE A HOUSE" textAlignment="CENTER" textFill="#e172cd">
+                     <font>
+                        <Font name="Century Gothic Bold" size="30.0" />
+                     </font>
+                  </Label>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="57.0" layoutX="325.0" layoutY="529.0" stroke="BLACK" strokeType="INSIDE" width="68.0" />
+                  <Button fx:id="btnBuyHouseInc" layoutX="392.0" layoutY="530.0" mnemonicParsing="false" onAction="#btnBuyAHouseIncClicked" prefHeight="28.0" prefWidth="28.0" rotate="-90.0" text="&gt;" />
+                  <Button fx:id="btnBuyHouseDec" disable="true" layoutX="392.0" layoutY="558.0" mnemonicParsing="false" onAction="#btnBuyAHouseDecClicked" prefHeight="28.0" prefWidth="28.0" rotate="-90.0" text="&lt;" />
+                  <Label fx:id="lblBuyHouseCtr" alignment="CENTER" layoutX="325.0" layoutY="542.0" prefHeight="31.0" prefWidth="68.0" text="1" textAlignment="CENTER">
+                     <font>
+                        <Font name="Century Gothic Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="btnBuyHouseOK" disable="true" layoutX="649.0" layoutY="534.0" mnemonicParsing="false" onAction="#btnCardOKClicked" prefHeight="46.0" prefWidth="121.0" style="-fx-background-color: #84ff82;" text="OK!" textFill="#167932">
+                     <font>
+                        <Font name="Century Gothic Bold" size="23.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btnBuyHouseBuy" layoutX="442.0" layoutY="535.0" mnemonicParsing="false" onAction="#btnBuyAHouseBuyClicked" prefHeight="46.0" prefWidth="121.0" style="-fx-background-color: #84ff82;" text="BUY" textFill="#167932">
+                     <font>
+                        <Font name="Century Gothic Bold" size="23.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="greenAnchor" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" visible="false">
+               <children>
+                  <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@greenbg.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="lblGreenSpaceEvent" alignment="TOP_CENTER" layoutX="-1.0" lineSpacing="40.0" prefHeight="600.0" prefWidth="823.0" text="&#10;PAY DAY&#10;COLLECT " textAlignment="CENTER" textFill="#72e07c">
+                     <font>
+                        <Font name="Century Gothic Bold" size="45.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="btnGreenSpaceOK" layoutX="570.0" layoutY="510.0" mnemonicParsing="false" onAction="#btnCardOKClicked" prefHeight="57.0" prefWidth="202.0" style="-fx-background-color: #9effa3;" text="OK!" textFill="#3b8224">
+                     <font>
+                        <Font name="Century Gothic Bold" size="29.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="blueAnchor" disable="true" layoutX="6.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" visible="false">
+               <children>
+                  <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@bluebg.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" layoutX="-6.0" prefHeight="124.0" prefWidth="806.0" text="YOU PICKED THIS BLUE CARD" textAlignment="CENTER" textFill="#71aede" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="37.0" />
+                     </font>
+                  </Label>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8ac6ff" height="327.0" layoutX="55.0" layoutY="156.0" stroke="#ffe2bf" strokeType="INSIDE" width="306.0" />
+                  <Button fx:id="btnBlueCardOK" layoutX="606.0" layoutY="529.0" mnemonicParsing="false" onAction="#btnCardOKClicked" prefHeight="57.0" prefWidth="180.0" style="-fx-background-color: #84ff82;" text="OK!" textFill="#24822a">
+                     <font>
+                        <Font name="Century Gothic Bold" size="29.0" />
+                     </font>
+                  </Button>
+                  <Label fx:id="lblBlueCardEvent" alignment="CENTER" layoutX="370.0" layoutY="150.0" lineSpacing="10.0" prefHeight="344.0" prefWidth="416.0" text=" COLLECT/PAY &#10;&#10;NAME OF PLAYER OR BANK&#10;&#10;PRICE" textAlignment="CENTER" textFill="#71aede" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="37.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblBlueCard" alignment="CENTER" layoutX="55.0" layoutY="156.0" lineSpacing="20.0" prefHeight="327.0" prefWidth="306.0" text="BLUE CARD&#10;&#10;EVENT HERE&#10;&#10;PRICE HERE&#10;" textAlignment="CENTER" textFill="#2e7ba6" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="33.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="btnBlueRandPrice" layoutX="55.0" layoutY="407.0" mnemonicParsing="false" onAction="#btnBlueRandPriceClicked" prefHeight="76.0" prefWidth="306.0" style="-fx-background-color: #2395c6;" text="ROLL FOR PRICE" textFill="WHITE">
+                     <font>
+                        <Font name="Century Gothic Bold" size="33.0" />
+                     </font>
+                  </Button>
+                  <Label fx:id="lblBlueDiceRoll" alignment="CENTER" contentDisplay="CENTER" layoutX="55.0" layoutY="494.0" prefHeight="58.0" prefWidth="306.0" text="YOU ROLLED " textAlignment="CENTER" textFill="#71aede">
+                     <font>
+                        <Font name="Century Gothic Bold" size="36.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="colCarAnchor" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" visible="false">
+               <children>
+                  <ImageView disable="true" fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@magentabg.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="lblColCarJobSearchTitle" alignment="CENTER" layoutX="101.0" prefHeight="162.0" prefWidth="593.0" text="COLLEGE CAREER CHOICE" textAlignment="CENTER" textFill="#e172cd">
+                     <font>
+                        <Font name="Century Gothic Bold" size="45.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="118.0" layoutY="490.0" prefHeight="162.0" prefWidth="594.0" text="CHOOSE ONE CARD FOR EACH" textAlignment="CENTER" textFill="#e172cd">
+                     <font>
+                        <Font name="Century Gothic Bold" size="28.0" />
+                     </font>
+                  </Label>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#abd6ff" height="358.0" layoutX="20.0" layoutY="121.0" stroke="BLACK" strokeType="INSIDE" width="180.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#abd6ff" height="358.0" layoutX="205.0" layoutY="121.0" stroke="BLACK" strokeType="INSIDE" width="180.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bdffa6" height="358.0" layoutX="414.0" layoutY="120.0" stroke="BLACK" strokeType="INSIDE" width="180.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bdffa6" height="358.0" layoutX="599.0" layoutY="120.0" stroke="BLACK" strokeType="INSIDE" width="180.0" />
+                  <Label alignment="CENTER" layoutX="19.0" layoutY="129.0" prefHeight="31.0" prefWidth="180.0" text="CAREER CARD" textAlignment="CENTER" textFill="#3e85ab">
+                     <font>
+                        <Font name="Century Gothic Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="20.0" layoutY="159.0" prefHeight="31.0" prefWidth="180.0" text="CAREER" textAlignment="CENTER" textFill="#3e85ab">
+                     <font>
+                        <Font name="Century Gothic Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="19.0" layoutY="268.0" prefHeight="31.0" prefWidth="180.0" text="MAX PAY RAISES" textAlignment="CENTER" textFill="#3e85ab">
+                     <font>
+                        <Font name="Century Gothic Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="205.0" layoutY="129.0" prefHeight="31.0" prefWidth="180.0" text="CAREER CARD" textAlignment="CENTER" textFill="#3e85ab">
+                     <font>
+                        <Font name="Century Gothic Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="205.0" layoutY="159.0" prefHeight="31.0" prefWidth="180.0" text="CAREER" textAlignment="CENTER" textFill="#3e85ab">
+                     <font>
+                        <Font name="Century Gothic Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="205.0" layoutY="268.0" prefHeight="31.0" prefWidth="180.0" text="MAX PAY RAISES" textAlignment="CENTER" textFill="#3e85ab">
+                     <font>
+                        <Font name="Century Gothic Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="415.0" layoutY="129.0" prefHeight="31.0" prefWidth="180.0" text="SALARY CARD" textAlignment="CENTER" textFill="#3fab51">
+                     <font>
+                        <Font name="Century Gothic Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="415.0" layoutY="170.0" prefHeight="31.0" prefWidth="180.0" text="SALARY" textAlignment="CENTER" textFill="#3fab51">
+                     <font>
+                        <Font name="Century Gothic Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="416.0" layoutY="300.0" prefHeight="31.0" prefWidth="180.0" text="TAX DUE" textAlignment="CENTER" textFill="#3fab51">
+                     <font>
+                        <Font name="Century Gothic Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="600.0" layoutY="129.0" prefHeight="31.0" prefWidth="180.0" text="SALARY CARD" textAlignment="CENTER" textFill="#3fab51">
+                     <font>
+                        <Font name="Century Gothic Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="600.0" layoutY="170.0" prefHeight="31.0" prefWidth="180.0" text="SALARY" textAlignment="CENTER" textFill="#3fab51">
+                     <font>
+                        <Font name="Century Gothic Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="601.0" layoutY="300.0" prefHeight="31.0" prefWidth="180.0" text="TAX DUE" textAlignment="CENTER" textFill="#3fab51">
+                     <font>
+                        <Font name="Century Gothic Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblColCareer1Info" alignment="CENTER" layoutX="20.0" layoutY="185.0" prefHeight="291.0" prefWidth="180.0" text="CAREER &#10;HERE&#10;&#10;&#10;MAX PAY RAISES HERE&#10;&#10;&#10;REQUIRED" textAlignment="CENTER" textFill="#3e85ab" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblColSalary1Info" alignment="CENTER" layoutX="416.0" layoutY="175.0" prefHeight="302.0" prefWidth="180.0" text="SALARY HERE&#10;&#10;&#10;&#10;&#10;TAX DUE" textAlignment="CENTER" textFill="#3fab51" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblColSalary2Info" alignment="CENTER" layoutX="599.0" layoutY="174.0" prefHeight="302.0" prefWidth="180.0" text="SALARY HERE&#10;&#10;&#10;&#10;&#10;TAX DUE" textAlignment="CENTER" textFill="#3fab51" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="19.0" layoutY="394.0" prefHeight="31.0" prefWidth="180.0" text="DEGREE" textAlignment="CENTER" textFill="#3e85ab">
+                     <font>
+                        <Font name="Century Gothic Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblColCareer2Info" alignment="CENTER" layoutX="205.0" layoutY="159.0" prefHeight="344.0" prefWidth="180.0" text="CAREER &#10;HERE&#10;&#10;&#10;MAX PAY RAISES HERE&#10;&#10;&#10;REQUIRED" textAlignment="CENTER" textFill="#3e85ab" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="205.0" layoutY="394.0" prefHeight="31.0" prefWidth="180.0" text="DEGREE" textAlignment="CENTER" textFill="#3e85ab">
+                     <font>
+                        <Font name="Century Gothic Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="btnCareer1" layoutX="20.0" layoutY="490.0" mnemonicParsing="false" onAction="#btnCareer1Clicked" prefHeight="57.0" prefWidth="180.0" style="-fx-background-color: #99d1ff;" text="1" textFill="#246083">
+                     <font>
+                        <Font name="Century Gothic Bold" size="29.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btnSalary1" layoutX="415.0" layoutY="490.0" mnemonicParsing="false" onAction="#btnSalary1Clicked" prefHeight="57.0" prefWidth="180.0" style="-fx-background-color: #bdffa6;" text="1" textFill="#3b8224">
+                     <font>
+                        <Font name="Century Gothic Bold" size="29.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btnSalary2" layoutX="600.0" layoutY="490.0" mnemonicParsing="false" onAction="#btnSalary2Clicked" prefHeight="57.0" prefWidth="180.0" style="-fx-background-color: #bdffa6;" text="2" textFill="#3b8224">
+                     <font>
+                        <Font name="Century Gothic Bold" size="29.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btnCareer2" layoutX="205.0" layoutY="490.0" mnemonicParsing="false" onAction="#btnCareer2Clicked" prefHeight="57.0" prefWidth="180.0" style="-fx-background-color: #99d1ff;" text="2" textFill="#246083">
+                     <font>
+                        <Font name="Century Gothic Bold" size="29.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="orangeAnchor" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" visible="false">
+               <children>
+                  <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@orangebg.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" layoutX="-6.0" prefHeight="124.0" prefWidth="806.0" text="YOU PICKED THIS ACTION CARD" textAlignment="CENTER" textFill="#e0b072" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="37.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="btnActionCardPlayer2" disable="true" layoutX="519.0" layoutY="379.0" mnemonicParsing="false" onAction="#btnActionCardPlayer2Clicked" prefHeight="57.0" prefWidth="109.0" style="-fx-background-color: #ffff82;" text="2" textFill="#7e8224" visible="false">
+                     <font>
+                        <Font name="Century Gothic Bold" size="29.0" />
+                     </font>
+                  </Button>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffd988" height="327.0" layoutX="55.0" layoutY="156.0" stroke="#ffe2bf" strokeType="INSIDE" width="306.0" />
+                  <Button fx:id="btnActionCardPlayer1" disable="true" layoutX="397.0" layoutY="379.0" mnemonicParsing="false" onAction="#btnActionCardPlayer1Clicked" prefHeight="57.0" prefWidth="109.0" style="-fx-background-color: #ff8682;" text="1" textFill="#822424" visible="false">
+                     <font>
+                        <Font name="Century Gothic Bold" size="29.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btnActionCardPlayer3" disable="true" layoutX="642.0" layoutY="379.0" mnemonicParsing="false" onAction="#btnActionCardPlayer3Clicked" prefHeight="57.0" prefWidth="109.0" style="-fx-background-color: #84ff82;" text="3" textFill="#248226" visible="false">
+                     <font>
+                        <Font name="Century Gothic Bold" size="29.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btnActionCardOK" disable="true" layoutX="606.0" layoutY="529.0" mnemonicParsing="false" onAction="#btnCardOKClicked" prefHeight="57.0" prefWidth="180.0" style="-fx-background-color: #84ff82;" text="OK!" textFill="#24822a">
+                     <font>
+                        <Font name="Century Gothic Bold" size="29.0" />
+                     </font>
+                  </Button>
+                  <Label fx:id="lblActionCardEvent" alignment="CENTER" layoutX="370.0" layoutY="157.0" prefHeight="203.0" prefWidth="416.0" text=" COLLECT FROM PLAYER&#10;&#10;CHOOSE PLAYER" textAlignment="CENTER" textFill="#e0b072" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="37.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblActionCard" alignment="CENTER" layoutX="55.0" layoutY="156.0" lineSpacing="25.0" prefHeight="327.0" prefWidth="306.0" text="ACTION CARD&#10;&#10;EVENT HERE&#10;&#10;PRICE HERE&#10;" textAlignment="CENTER" textFill="#a8712e" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="33.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblActionCardCashChange" alignment="CENTER" layoutX="397.0" layoutY="446.0" prefHeight="74.0" prefWidth="354.0" text="Price" textAlignment="CENTER" textFill="#e0b072" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="37.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="whichPathAnchor" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" visible="false">
+               <children>
+                  <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@magentabg.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" layoutX="104.0" layoutY="81.0" prefHeight="162.0" prefWidth="593.0" text="CHOOSE A PATH" textAlignment="CENTER" textFill="#e172cd">
+                     <font>
+                        <Font name="Century Gothic Bold" size="65.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="btnContinuePath" layoutX="460.0" layoutY="242.0" mnemonicParsing="false" onAction="#btnContinuePathClicked" prefHeight="98.0" prefWidth="211.0" style="-fx-background-color: #99d1ff;" text="CONTINUE" textFill="#246083">
+                     <font>
+                        <Font name="Century Gothic Bold" size="29.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btnOtherPath" alignment="CENTER" contentDisplay="CENTER" layoutX="152.0" layoutY="242.0" mnemonicParsing="false" onAction="#btnOtherPathClicked" prefHeight="98.0" prefWidth="211.0" style="-fx-background-color: #ffd199;" text="CAREER PATH" textAlignment="CENTER" textFill="#975f1f" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="25.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="getMarriedAnchor" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" visible="false">
+               <children>
+                  <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@magentabg.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" layoutX="101.0" prefHeight="162.0" prefWidth="593.0" text="GET MARRIED" textAlignment="CENTER" textFill="#e172cd">
+                     <font>
+                        <Font name="Century Gothic Bold" size="45.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="btnMarriedRollDice" layoutX="56.0" layoutY="178.0" mnemonicParsing="false" onAction="#rollMarried" prefHeight="57.0" prefWidth="202.0" style="-fx-background-color: #99d1ff;" text="ROLL DICE!" textFill="#246083">
+                     <font>
+                        <Font name="Century Gothic Bold" size="29.0" />
+                     </font>
+                  </Button>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="162.0" layoutX="292.0" layoutY="125.0" stroke="WHITE" strokeType="INSIDE" width="157.0" />
+                  <Circle fx:id="cFirstMD3" layoutX="371.0" layoutY="207.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="cFirstMD1" layoutX="321.0" layoutY="159.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="cFirstMD4" layoutX="419.0" layoutY="159.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="cFirstMD5" layoutX="321.0" layoutY="254.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="cFirstMD2" layoutX="419.0" layoutY="254.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="162.0" layoutX="479.0" layoutY="126.0" stroke="WHITE" strokeType="INSIDE" width="157.0" />
+                  <Circle fx:id="cSecMD3" layoutX="558.0" layoutY="208.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="cSecMD1" layoutX="508.0" layoutY="160.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="cSecMD4" layoutX="606.0" layoutY="160.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="cSecMD5" layoutX="508.0" layoutY="255.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="cSecMD2" layoutX="606.0" layoutY="255.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Button fx:id="btnMarriedOK" layoutX="570.0" layoutY="510.0" mnemonicParsing="false" onAction="#btnCardOKClicked" prefHeight="57.0" prefWidth="202.0" style="-fx-background-color: #9effa3;" text="OK!" textFill="#3b8224">
+                     <font>
+                        <Font name="Century Gothic Bold" size="29.0" />
+                     </font>
+                  </Button>
+                  <Label fx:id="lblMarriedEvent" alignment="CENTER" layoutX="110.0" layoutY="300.0" prefHeight="184.0" prefWidth="580.0" style="-fx-background-color: #4a1831;" text="YOU ROLLED AN EVEN NUMBER! YOU GET 10000 FROM EACH PLAYER!" textAlignment="CENTER" textFill="#e172cd" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="29.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="jobSearchAnchor" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" visible="false">
+               <children>
+                  <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@magentabg.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" layoutX="101.0" prefHeight="162.0" prefWidth="593.0" text="JOB SEARCH" textAlignment="CENTER" textFill="#e172cd">
+                     <font>
+                        <Font name="Century Gothic Bold" size="45.0" />
+                     </font>
+                  </Label>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#abd6ff" height="358.0" layoutX="20.0" layoutY="121.0" stroke="BLACK" strokeType="INSIDE" width="180.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#abd6ff" height="358.0" layoutX="414.0" layoutY="120.0" stroke="BLACK" strokeType="INSIDE" width="180.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bdffa6" height="358.0" layoutX="205.0" layoutY="120.0" stroke="BLACK" strokeType="INSIDE" width="180.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bdffa6" height="358.0" layoutX="599.0" layoutY="120.0" stroke="BLACK" strokeType="INSIDE" width="180.0" />
+                  <Label alignment="CENTER" layoutX="19.0" layoutY="129.0" prefHeight="31.0" prefWidth="180.0" text="CAREER CARD" textAlignment="CENTER" textFill="#3e85ab">
+                     <font>
+                        <Font name="Century Gothic Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="20.0" layoutY="160.0" prefHeight="31.0" prefWidth="180.0" text="CAREER" textAlignment="CENTER" textFill="#3e85ab">
+                     <font>
+                        <Font name="Century Gothic Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="20.0" layoutY="268.0" prefHeight="31.0" prefWidth="180.0" text="MAX PAY RAISES" textAlignment="CENTER" textFill="#3e85ab">
+                     <font>
+                        <Font name="Century Gothic Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="415.0" layoutY="129.0" prefHeight="31.0" prefWidth="180.0" text="CAREER CARD" textAlignment="CENTER" textFill="#3e85ab">
+                     <font>
+                        <Font name="Century Gothic Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="416.0" layoutY="160.0" prefHeight="31.0" prefWidth="180.0" text="CAREER" textAlignment="CENTER" textFill="#3e85ab">
+                     <font>
+                        <Font name="Century Gothic Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="416.0" layoutY="268.0" prefHeight="31.0" prefWidth="180.0" text="MAX PAY RAISES" textAlignment="CENTER" textFill="#3e85ab">
+                     <font>
+                        <Font name="Century Gothic Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="205.0" layoutY="129.0" prefHeight="31.0" prefWidth="180.0" text="SALARY CARD" textAlignment="CENTER" textFill="#3fab51">
+                     <font>
+                        <Font name="Century Gothic Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="205.0" layoutY="170.0" prefHeight="31.0" prefWidth="180.0" text="SALARY" textAlignment="CENTER" textFill="#3fab51">
+                     <font>
+                        <Font name="Century Gothic Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="205.0" layoutY="300.0" prefHeight="31.0" prefWidth="180.0" text="TAX DUE" textAlignment="CENTER" textFill="#3fab51">
+                     <font>
+                        <Font name="Century Gothic Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="600.0" layoutY="129.0" prefHeight="31.0" prefWidth="180.0" text="SALARY CARD" textAlignment="CENTER" textFill="#3fab51">
+                     <font>
+                        <Font name="Century Gothic Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="600.0" layoutY="170.0" prefHeight="31.0" prefWidth="180.0" text="SALARY" textAlignment="CENTER" textFill="#3fab51">
+                     <font>
+                        <Font name="Century Gothic Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="601.0" layoutY="300.0" prefHeight="31.0" prefWidth="180.0" text="TAX DUE" textAlignment="CENTER" textFill="#3fab51">
+                     <font>
+                        <Font name="Century Gothic Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="118.0" layoutY="490.0" prefHeight="162.0" prefWidth="593.0" text="KEEP OR CHANGE CAREER?" textAlignment="CENTER" textFill="#e172cd">
+                     <font>
+                        <Font name="Century Gothic Bold" size="28.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="btnChangeCarSal" layoutX="506.0" layoutY="490.0" mnemonicParsing="false" onAction="#btnChangeCarSalClicked" prefHeight="57.0" prefWidth="180.0" style="-fx-background-color: #bdffa6;" text="CHANGE" textFill="#3b8224">
+                     <font>
+                        <Font name="Century Gothic Bold" size="29.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btnCurrentCarSal" layoutX="109.0" layoutY="490.0" mnemonicParsing="false" onAction="#btnCurrentCarSalClicked" prefHeight="57.0" prefWidth="180.0" style="-fx-background-color: #99d1ff;" text="KEEP" textFill="#246083">
+                     <font>
+                        <Font name="Century Gothic Bold" size="29.0" />
+                     </font>
+                  </Button>
+                  <Label fx:id="lblJSCareer1Info" alignment="CENTER" layoutX="20.0" layoutY="185.0" prefHeight="291.0" prefWidth="180.0" text="CAREER &#10;HERE&#10;&#10;&#10;MAX PAY RAISES HERE&#10;&#10;&#10;REQUIRED" textAlignment="CENTER" textFill="#3e85ab" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="20.0" layoutY="395.0" prefHeight="31.0" prefWidth="180.0" text="DEGREE" textAlignment="CENTER" textFill="#3e85ab">
+                     <font>
+                        <Font name="Century Gothic Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="414.0" layoutY="395.0" prefHeight="31.0" prefWidth="180.0" text="DEGREE" textAlignment="CENTER" textFill="#3e85ab">
+                     <font>
+                        <Font name="Century Gothic Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblJSCareer2Info" alignment="CENTER" layoutX="414.0" layoutY="185.0" prefHeight="291.0" prefWidth="180.0" text="CAREER &#10;HERE&#10;&#10;&#10;MAX PAY RAISES HERE&#10;&#10;&#10;REQUIRED" textAlignment="CENTER" textFill="#3e85ab" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblJSSalary1Info" alignment="CENTER" layoutX="205.0" layoutY="179.0" prefHeight="302.0" prefWidth="180.0" text="SALARY HERE&#10;&#10;&#10;&#10;&#10;TAX DUE" textAlignment="CENTER" textFill="#3fab51" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblJSSalary2Info" alignment="CENTER" layoutX="600.0" layoutY="179.0" prefHeight="302.0" prefWidth="180.0" text="SALARY HERE&#10;&#10;&#10;&#10;&#10;TAX DUE" textAlignment="CENTER" textFill="#3fab51" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic" size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="gameEndAnchor" disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" visible="false">
+               <children>
+                  <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@magentabg.png" />
+                     </image>
+                  </ImageView>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fff047" height="68.0" layoutX="95.0" layoutY="150.0" stroke="#fff86e" strokeType="INSIDE" width="593.0" />
+                  <Label alignment="CENTER" layoutX="101.0" prefHeight="162.0" prefWidth="593.0" text="GAME WINNER" textAlignment="CENTER" textFill="#e172cd">
+                     <font>
+                        <Font name="Century Gothic Bold" size="45.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="129.0" layoutY="126.0" prefHeight="99.0" prefWidth="512.0" text="1ST PLACE" textAlignment="JUSTIFY" textFill="#fff898" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="89.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblGameEnd1stName" alignment="CENTER_RIGHT" layoutX="95.0" layoutY="150.0" prefHeight="68.0" prefWidth="593.0" text="1st place" textAlignment="JUSTIFY" textFill="#5f6b02" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="29.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="btnGameSummary" layoutX="388.0" layoutY="510.0" mnemonicParsing="false" onAction="#btnGameSummaryClicked" prefHeight="57.0" prefWidth="384.0" style="-fx-background-color: #9effa3;" text="BACK TO MAIN MENU" textFill="#3b8224">
+                     <font>
+                        <Font name="Century Gothic Bold" size="29.0" />
+                     </font>
+                  </Button>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c9c552" height="49.0" layoutX="124.0" layoutY="164.0" stroke="#c9c582" strokeType="INSIDE" width="10.0" />
+                  <Arc fill="#c9c552" layoutX="129.0" layoutY="159.0" length="180.0" radiusX="21.0" radiusY="33.0" startAngle="180.0" stroke="#c9c582" strokeType="INSIDE" type="ROUND" />
+                  <Ellipse fill="#c9c552" layoutX="129.0" layoutY="207.0" radiusX="18.0" radiusY="6.0" stroke="#c9c582" strokeType="INSIDE" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d3d3d3" height="68.0" layoutX="95.0" layoutY="266.0" stroke="#b2b2b2" strokeType="INSIDE" width="593.0" />
+                  <Label alignment="CENTER" layoutX="129.0" layoutY="242.0" prefHeight="99.0" prefWidth="512.0" text="2ND PLACE" textAlignment="JUSTIFY" textFill="#e4e4e4" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="89.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblGameEnd2ndName" alignment="CENTER_RIGHT" layoutX="95.0" layoutY="266.0" prefHeight="68.0" prefWidth="593.0" text="2nd place" textAlignment="JUSTIFY" textFill="#575757" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="29.0" />
+                     </font>
+                  </Label>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#838383" height="49.0" layoutX="124.0" layoutY="280.0" stroke="#979797" strokeType="INSIDE" width="10.0" />
+                  <Arc fill="#838383" layoutX="129.0" layoutY="275.0" length="180.0" radiusX="21.0" radiusY="33.0" startAngle="180.0" stroke="#979797" strokeType="INSIDE" type="ROUND" />
+                  <Ellipse fill="#838383" layoutX="129.0" layoutY="323.0" radiusX="18.0" radiusY="6.0" stroke="#979797" strokeType="INSIDE" />
+                  <Rectangle fx:id="recGameEnd3rdBG" arcHeight="5.0" arcWidth="5.0" fill="#ab8750" height="68.0" layoutX="95.0" layoutY="389.0" stroke="#b5782d" strokeType="INSIDE" visible="false" width="593.0" />
+                  <Label fx:id="lblGameEnd3rdBG" alignment="CENTER" layoutX="129.0" layoutY="365.0" prefHeight="99.0" prefWidth="512.0" text="3RD PLACE" textAlignment="JUSTIFY" textFill="#d3b082" visible="false" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="89.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblGameEnd3rdName" alignment="CENTER_RIGHT" layoutX="95.0" layoutY="389.0" prefHeight="68.0" prefWidth="593.0" text="3rd Place" textAlignment="JUSTIFY" textFill="#4d370f" visible="false" wrapText="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="29.0" />
+                     </font>
+                  </Label>
+                  <Rectangle fx:id="rec3rdTrophy" arcHeight="5.0" arcWidth="5.0" fill="#654d28" height="49.0" layoutX="124.0" layoutY="403.0" stroke="#835633" strokeType="INSIDE" visible="false" width="10.0" />
+                  <Arc fx:id="arc3rdTrophy" fill="#654d28" layoutX="129.0" layoutY="398.0" length="180.0" radiusX="21.0" radiusY="33.0" startAngle="180.0" stroke="#835633" strokeType="INSIDE" type="ROUND" visible="false" />
+                  <Ellipse fx:id="ell3rdTrophy" fill="#654d28" layoutX="129.0" layoutY="446.0" radiusX="18.0" radiusY="6.0" stroke="#835633" strokeType="INSIDE" visible="false" />
+                  <Label fx:id="lblGameEnd1stCash" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="570.0" layoutY="199.0" prefHeight="18.0" prefWidth="112.0" text="CASH" textFill="#5f6b02">
+                     <font>
+                        <Font name="Century Gothic Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblGameEnd2ndCash" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="570.0" layoutY="314.0" prefHeight="18.0" prefWidth="112.0" text="CASH" textFill="#575757">
+                     <font>
+                        <Font name="Century Gothic Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblGameEnd3rdCash" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="570.0" layoutY="437.0" prefHeight="18.0" prefWidth="112.0" text="CASH" textFill="#4d370f" visible="false">
+                     <font>
+                        <Font name="Century Gothic Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
